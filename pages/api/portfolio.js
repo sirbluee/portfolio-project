@@ -1,16 +1,19 @@
 const portfolio = [
     {
         id: 0,
-        projectName: "JMM Technologies",
+        projectName: "SurveyBox",
         url: "https://jmm.ltd/",
-        image: "projects/jmm.png",
-        projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
+        image: "projects/surveybox.jpg",
+        projectDetail: "SurveyBox, an online survey service developed in 2023 by Institute of Science and Technology Advanced Development students, allows users to create, distribute, and analyze surveys for data-driven decision-making.",
         technologiesUsed: [
             {
                 tech: "ReactJS"
             },
             {
-                tech: ".net"
+                tech: "NextJS"
+            },
+            {
+                tech: ".co"
             },
             {
                 tech: "Ant Design"

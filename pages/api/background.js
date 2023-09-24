@@ -3,55 +3,55 @@ const background = [
         eduCards: [
             {
                 id: 0,
-                title: 'UET Peshawar',
-                degree: 'BS, Computer System Engineering',
-                detail: "Bachelor's Degree in Computer System Engineering from UET Peshawar.",
-                year: '2018-2022'
+                title: 'The University of Cambodia',
+                degree: 'Information Technology',
+                detail: "Bachelor's Degree in Information Technology from The University of Cambodia.",
+                year: '2020-2024'
             },
             {
                 id: 1,
-                title: 'Peshawar Model Degree College',
-                degree: 'HSSC, Pre Engineering',
-                detail: "Completed FSC part 1 and part 2 in Pre-Engineering from Peshawar Model Degree College.",
-                year: '2015-2017'
+                title: 'Center of Science and Technology Advanced Development',
+                degree: 'Full Stack Web development, Data Analytics',
+                detail: "The first generation completed the final project and got number one.",
+                year: '2023'
             },
-            {
-                id: 2,
-                title: 'Falcon Academy',
-                degree: 'SSC, Science Subjects',
-                detail: "Completed SSC part 1 and part 2 in Science subjects from Falcon Academy Seni Gumbat Kohat",
-                year: '2013-2015'
-            },
+            // {
+            //     id: 2,
+            //     title: 'Camasean Internaltion School',
+            //     degree: 'English Department',
+            //     detail: "Completed the English level Intermedated",
+            //     year: '2021-2022'
+            // },
         ]
     },
     {
         expCards: [
             {
                 id: 1,
-                title: 'JMM Technologies',
+                title: 'SurveyBox',
                 role: 'Junior Frontend Developer',
-                url: 'https://jmm.ltd/',
+                url: 'https://surveybox.istad.co/',
                 desc: 'As a junior frontend developer, I use React, Next & JavaScript to build user interfaces for web applications.',
-                year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                year: '07/2023 - Present',
+                location: 'Phnom Penh, Cambodia'
             },
             {
                 id: 2,
-                title: 'HauzaTech',
-                role: 'Internee',
+                title: 'Computer Department',
+                role: 'Teacher',
                 url: 'no website',
-                desc: 'As an Internee, I learned how to use React & JavaScript to build interactive websites.',
+                desc: 'I have worked as a teacher to learn about the foundations of computers for one year.',
                 year: '02/2023 - Present',
-                location: 'Peshawar, Pakistan'
+                location: 'Phnom Penh, Cambodia'
             },
             {
                 id: 3,
-                title: 'Encoder Bytes',
-                role: 'PHP Developer',
-                url: 'https://www.encoderbytes.com/',
-                desc: "I work there as a PHP developer, there I learned how to do CRUD'S operations in PHP, also I worked on Firebase",
-                year: '09/2020 - 02/2021',
-                location: 'Peshawar, Pakistan'
+                title: 'SurveyBox',
+                role: 'UI/UX Designer',
+                url: 'https://surveybox.istad.co/',
+                desc: "I worked on these projects and thought about the flow and creating new styling.",
+                year: '07/2023',
+                location: 'Phnom Penh, Cambodia'
             },
 
         ]
