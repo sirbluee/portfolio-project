@@ -15,7 +15,7 @@ const Banner = () => {
                             <div className="">
                                 <div className=" py-4 font-cascadia-normal text-Snow pb-4 text-xs h-20 lg:h-auto">
                                     <span>{"<"}<span className="text-Green sm:text-base xl:text-lg font-bold">div</span>
-                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold"> I Am A <span className="inline-block">
+                                        {">"} <span className="text-Snow sm:text-xl xl:text-2xl font-bold">I'm <span className="inline-block">
                                             <Typewriter
                                                 options={{
                                                     strings:
@@ -30,14 +30,14 @@ const Banner = () => {
                                 </div>
                             </div>
                             <Link to='intro' spy={true} smooth={true} duration={500} offset={-50} className="button">Explore</Link>
-                        </div>
+                        </div>  
                         <div className="w-48 h-52 relative hidden md:block">
-                            <img className='absolute top-8 w-full h-full' src="images/emoji.png" alt="emoji" />
+                            <img className='absolute top-9 w-2/3 h-2/3 rounded-lg border-green border-4' src="images/rum-image1.png" alt="emoji" />
                         </div>
                     </div>
                 </div>
 
-                {/* details in row */}
+                {/* details in row */}  
                 <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
 
                     <div className="flex items-center gap-x-1">
@@ -47,7 +47,7 @@ const Banner = () => {
 
                     <div className="flex items-center gap-x-1">
                         <span className='text-base md:text-lg text-Green font-bold'>8+</span>
-                        <span className='text-xs text-Snow'>Freelance Clients</span>
+                        <span className='text-xs text-Snow'>Freelance Clients</span>    
                     </div>
 
                     <div className="flex items-center gap-x-1">
