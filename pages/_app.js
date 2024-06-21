@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import Layout from './layout'
 import { QueryClient, QueryClientProvider } from 'react-query'
 
