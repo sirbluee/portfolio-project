@@ -3,7 +3,6 @@ import Nav from "../components/Common/Nav/Nav";
 import { FaBars, FaMousePointer } from "react-icons/fa";
 import { SlOptionsVertical } from "react-icons/sl";
 import { useState } from "react";
-
 export default function Layout({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const [intro, setIntro] = useState(false);
@@ -57,7 +56,6 @@ export default function Layout({ children }) {
         <div className="w-full h-auto lg:w-9/12 shadow-2xl bg-DeepNightBlack relative overflow-auto overflow-x-hidden no-scrollbar">
           {children}
         </div>
-
         {/* right side */}
         {/* right side */}
         <div
