@@ -1,8 +1,11 @@
 import Typewriter from "typewriter-effect";
 import BannerLayout from "../Common/BannerLayout";
 import { Link } from "react-scroll";
+import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Banner = () => {
+  const router = useRouter();
   return (
     <BannerLayout>
       <div className="absolute inset-0 z-20 flex flex-col items-center py-6 justify-center w-full h-full bg-gradient-to-t from-MidNightBlack">
@@ -19,7 +22,7 @@ const Banner = () => {
                   <span>
                     {"<"}
                     <span className="text-Green sm:text-base xl:text-lg font-bold">
-                      div
+                      h3
                     </span>
                     {">"}{" "}
                     <span className="text-Snow sm:text-xl xl:text-2xl font-bold">
@@ -27,7 +30,7 @@ const Banner = () => {
                       <span className="inline-block">
                         <Typewriter
                           options={{
-                            strings: ["Data Analyst", "Full Stack Developer"],
+                            strings: ["Full Stack Developer"],
                             autoStart: true,
                             loop: true,
                           }}
@@ -42,20 +45,37 @@ const Banner = () => {
                   </span>
                 </div>
               </div>
-              <Link
+              {/* <Link
+                  href="/contact"
+                  to="intro"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                  offset={-50}
+                  className="button"
+                >
+                  Explore
+                </Link> */}
+              <button
                 to="intro"
                 spy={true}
                 smooth={true}
                 duration={500}
                 offset={-50}
                 className="button"
+                onClick={() => router.push("/background")}
               >
                 Explore
-              </Link>
+              </button>
             </div>
             <div className="w-48 h-52 relative hidden md:block">
               {/* <img className='absolute rounded-lg' src="images/main_profile.png" alt="emoji" /> */}
-              <img src="https://avataaars.io/?avatarStyle=Transparent&topType=Hat&accessoriesType=Blank&facialHairType=MoustacheMagnum&facialHairColor=Platinum&clotheType=Hoodie&clotheColor=Gray01&eyeType=EyeRoll&eyebrowType=FlatNatural&mouthType=Default&skinColor=Brown" />
+              <Image
+                height={250}
+                width={200}
+                alt="Avatar Profile"
+                src={"../images/avatar.svg"}
+              />
             </div>
           </div>
         </div>
@@ -64,14 +84,14 @@ const Banner = () => {
         <div className="grid grid-cols-2 gap-4 md:gap-0 md:flex items-center justify-between w-full px-4 xl:px-8 2xl:px-16">
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
-              10+
+              5+
             </span>
             <span className="text-xs text-Snow">Completed Projects</span>
           </div>
 
           <div className="flex items-center gap-x-1">
             <span className="text-base md:text-lg text-Green font-bold">
-              8+
+              2+
             </span>
             <span className="text-xs text-Snow">Freelance Clients</span>
           </div>
@@ -87,7 +107,7 @@ const Banner = () => {
             <span className="text-base md:text-lg text-Green font-bold">
               10+
             </span>
-            <span className="text-xs text-Snow">Opensource Projects</span>
+            <span className="text-xs text-Snow">Team Projects</span>
           </div>
         </div>
       </div>

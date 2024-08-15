@@ -1,6 +1,6 @@
 export const NAME = 'Sorn Sophearum';
 
-export const DESIGNATION = `Fullstack developer | Data Analyst | UX/UI Designer`;
+export const DESIGNATION = `Fullstack developer`;
 
 export const DETAILS = {
   Residence: 'Phnom Penh',
@@ -18,6 +18,14 @@ export const SKILLS = [
     level: '90%',
   },
   {
+    title: 'Spring Boot',
+    level: '90%',
+  },
+  {
+    title: 'ExpressJS',
+    level: '90%',
+  },
+  {
     title: 'Data Analyst',
     level: '75%',
   },
@@ -25,35 +33,29 @@ export const SKILLS = [
     title: 'UX/UI Designer',
     level: '55%',
   },
-  {
-    title: 'Technical Blogger',
-    level: '80%',
-  },
 ];
 
 export const TECH_STACK = [
+  'NextJS',
+  'Spring Boot',
+  'NodeJS',
+  'ExpressJS',
   'ReactJS',
   'JavaScript',
-  'NextJS',
   'TypeScript',
-  'NodeJS',
   'Redux',
-  'Zustand',
-  'ElectronJS',
   'CSS',
   'SCSS',
   'TailwindCSS',
-  'Ant Design',
   'REST API',
   'MongoDB',
   'MySQL',
+  'PostgreSQL',
+  'GraphQL',
   'Styled Components',
   'Git',
   'GitHub',
-  'BitBucket',
-  'Jira',
   'Figma',
-  'Adobe XD',
 ];
 
 export const CONTACTS = {

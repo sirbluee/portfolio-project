@@ -25,13 +25,16 @@ const portfolio = [
     },
     {
         id: 1,
-        projectName: "Otawix",
-        url: "https://b2c.otawix.com/",
-        image: "projects/otawix.png",
+        projectName: "K-QuickSight",
+        url: "https://k-quicksight.istad.co/",
+        image: "https://k-quicksight.istad.co/assets/logos/logo.png",
         projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
         technologiesUsed: [
             {
                 tech: "NextJS"
+            },
+            {
+                tech: "Spring Boot"
             },
             {
                 tech: "NodeJS"

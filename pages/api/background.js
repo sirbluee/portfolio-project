@@ -15,13 +15,13 @@ const background = [
                 detail: "The first generation completed the final project and got number one.",
                 year: '2023'
             },
-            // {
-            //     id: 2,
-            //     title: 'Camasean Internaltion School',
-            //     degree: 'English Department',
-            //     detail: "Completed the English level Intermedated",
-            //     year: '2021-2022'
-            // },
+            {
+                id: 2,
+                title: 'SabaiCode Bootcamp VI',
+                degree: 'Full Stack Web development',
+                detail: "Explore DevOps and web development using Graph API and Micro Frontends.",
+                year: '2024'
+            },
         ]
     },
     {
@@ -36,21 +36,21 @@ const background = [
                 location: 'Phnom Penh, Cambodia'
             },
             {
-                id: 2,
-                title: 'Computer Department',
-                role: 'Teacher',
-                url: 'no website',
-                desc: 'I have worked as a teacher to learn about the foundations of computers for one year.',
-                year: '02/2023 - Present',
-                location: 'Phnom Penh, Cambodia'
-            },
-            {
                 id: 3,
-                title: 'SurveyBox',
-                role: 'UI/UX Designer',
+                title: 'K-QuickSight',
+                role: 'Full Stack Web Developer',
                 url: 'https://surveybox.istad.co/',
                 desc: "I worked on these projects and thought about the flow and creating new styling.",
                 year: '07/2023',
+                location: 'Phnom Penh, Cambodia'
+            },
+            {
+                id: 4,  
+                title: 'Internship',
+                role: 'Full Stack Developer',
+                url: 'https://surveybox.istad.co/',
+                desc: 'As a Full Stack Developer, I use NextJS to build user interfaces for web applications and ExpressJS for Backend.',
+                year: '03/2024 - 05/2024',
                 location: 'Phnom Penh, Cambodia'
             },
 
