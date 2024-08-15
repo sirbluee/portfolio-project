@@ -6,7 +6,7 @@ export default function Document() {
       <Head>
         <title>Sorn Sophearum | Home</title>
         <meta name="description" content="Welcome to my portfolio website. Explore my work and projects." />
-        <meta name="keywords" content="portfolio, web developer, projects" />
+        <meta name="keywords" content="portfolio, web developer, projects, Sorn Sophearum" />
         <meta name="author" content="Sorn Sophearum" />
         <meta property="og:title" content="Sorn Sophearum | Home" />
         <meta property="og:description" content="Welcome to my portfolio website. Explore my work and projects." />
