@@ -22,7 +22,7 @@ const Banner = () => {
                   <span>
                     {"<"}
                     <span className="text-Green sm:text-base xl:text-lg font-bold">
-                      h3
+                      div
                     </span>
                     {">"}{" "}
                     <span className="text-Snow sm:text-xl xl:text-2xl font-bold">
