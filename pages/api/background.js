@@ -46,7 +46,7 @@ const background = [
             },
             {
                 id: 4,  
-                title: 'Internship',
+                title: 'Full Stack Web Developer',
                 role: 'Full Stack Developer',
                 url: 'https://surveybox.istad.co/',
                 desc: 'As a Full Stack Developer, I use NextJS to build user interfaces for web applications and ExpressJS for Backend.',

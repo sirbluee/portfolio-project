@@ -19,7 +19,7 @@ export const SKILLS = [
   },
   {
     title: 'Spring Boot',
-    level: '90%',
+    level: '50%',
   },
   {
     title: 'ExpressJS',

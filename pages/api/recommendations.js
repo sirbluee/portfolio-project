@@ -13,7 +13,7 @@ const recommendationCard = [
     name: 'Sun Jessica',
     image: "images/jessi.jpg",
     designation: 'MERN | JavaScript | Tailwind | Sass | Bootstrap',
-    view: "I wholeheartedly recommend Osama as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
+    view: "I wholeheartedly recommend Sophearum as a talented React frontend developer with an incredible flair for UI/UX design. His proficiency in Node.js further enhances his capabilities, allowing him to build robust and scalable applications. Osama's attention to detail, problem-solving skills, and dedication to delivering exceptional results make him a valuable addition to any development team.",
     linkednURL: "#"
   },
   {
@@ -21,7 +21,7 @@ const recommendationCard = [
     name: 'Navatt Takon',
     image: "images/somboleap.jpg",
     designation: 'MERN Stack Developer at Productbox',
-    view: "I highly recommend Osama Javed for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
+    view: "I highly recommend Sorn Sophearum for web frontend development positions. Their expertise in ReactJS and Next.js, combined with their professionalism and dedication, make them an invaluable asset to any team.",
     linkednURL: "#"
   },
   {
