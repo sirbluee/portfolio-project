@@ -15,23 +15,23 @@ export const SKILLS = [
   },
   {
     title: 'Next JS Developer',
-    level: '90%',
+    level: '89%',
   },
   {
     title: 'Spring Boot',
-    level: '50%',
+    level: '86%',
   },
   {
     title: 'ExpressJS',
-    level: '90%',
+    level: '91%',
   },
   {
     title: 'Data Analyst',
     level: '75%',
   },
   {
-    title: 'UX/UI Designer',
-    level: '55%',
+    title: 'CI/CD Deployment',
+    level: '69%',
   },
 ];
 
