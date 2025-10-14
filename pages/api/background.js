@@ -53,11 +53,18 @@ const background = [
                 year: '03/2024 - 05/2024',
                 location: 'Phnom Penh, Cambodia'
             },
-
+            {
+                id: 5,  
+                title: 'DataCleaner',
+                role: 'Full Stack Developer',
+                url: 'https://data-cleaner-ai.vercel.app/',
+                desc: 'As a Full Stack Developer, I use NextJS to build user interfaces for web applications and ExpressJS for Backend.',
+                year: '03/2025 - 10/2025',
+                location: 'Phnom Penh, Cambodia'
+            }
         ]
     }
 ]
-
 
 export default function handler(req, res) {
     res.status(200).json(background)

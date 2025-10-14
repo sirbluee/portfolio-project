@@ -60,10 +60,10 @@ export const TECH_STACK = [
 
 export const CONTACTS = {
   EMAIL: 'sophearum14@gmail.com',
-  PHONE: '+85570233474',
+  TELEGRAM: '@sophearum10',
 };
 export const SOCIAL_LINKS = {
-  GITHUB: 'https://github.com/sophe4rum',
+  GITHUB: 'https://github.com/sirbluee',
   LINKEDIN: 'https://www.linkedin.com/in/sorn-sophearum-6a5755271/',
   TWITTER: 'https://twitter.com/rum_sorn',
   FACEBOOK: 'https://www.facebook.com/sophearum.sorn',
